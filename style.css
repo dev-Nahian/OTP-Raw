@@ -1,0 +1,105 @@
+/* ============================================ verification strat hare ====================================== */
+.nr--verification--header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .nr--verification--header p {
+    width: 480px;
+    text-align: center;
+  }
+  
+  .nr--six--digit {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+  
+  .nr--verification--inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 24px;
+  }
+  
+  
+  
+  .otp-input-fields {
+    margin: auto;
+    max-width: 400px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px 0 32px 0;
+  }
+  
+  .otp-input-fields input {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #ced5d2;
+    text-align: center;
+    outline: none;
+    font-size: 26px;
+    color: var(--white);
+  }
+  
+  .otp-input-fields input::-webkit-outer-spin-button,
+  .otp-input-fields input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .otp-input-fields input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .otp-input-fields input:focus {
+    border-width: 2px;
+    border-color: var(--primary--color);
+    font-size: 26px;
+  }
+  
+  .loginSubmit--btn.continue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 488px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  /* ============================================ verification End hare ====================================== */
+  
